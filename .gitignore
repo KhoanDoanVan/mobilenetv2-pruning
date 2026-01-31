@@ -1,3 +1,5 @@
 
 
 /.mobilenetv2pruningenv
+
+*__pycache__
