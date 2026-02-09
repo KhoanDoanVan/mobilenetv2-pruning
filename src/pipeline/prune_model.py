@@ -118,3 +118,6 @@ def prune_mobilenetv2_magnitude(model, sparsity):
     print(f"\n==> Pruned {len(stats)} layers")
 
     return pruned_model, pruner.masks
+
+
+

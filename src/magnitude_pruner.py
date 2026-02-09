@@ -56,6 +56,7 @@ class MagnitudePruner:
                     )
 
             all_weights = np.concatenate(all_weights)
+            # Percentile formular: percentile * (n - 1)
             global_threshold = np.percentile(np.abs(all_weights), self.sparsity * 100)
         
         else:
